@@ -1,0 +1,11 @@
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x300");
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.banner p, .banner h1 {
+  background-color: black;
+  display: inline-block;
+}

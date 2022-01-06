@@ -1,0 +1,47 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  max-width: 400px;
+  border: 3px solid black;
+  box-shadow: 4px 4px 0px sandybrown;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 50px;
+}
+@media (min-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cards {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards {
+    flex-direction: column;
+  }
+}
+@media (min-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    flex-direction: row;
+  }
+}
